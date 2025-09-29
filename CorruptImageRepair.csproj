@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>Emby.CorruptImageRepair</AssemblyName>
+    <RootNamespace>Emby.CorruptImageRepair</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="CorruptImageRepair0130-29092025.zip" />
+    <None Remove="CorruptImageRepair0220-29092025.zip" />
+    <None Remove="Dashboard\corruptionrepair.js" />
+    <None Remove="icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Dashboard\corruptionrepair.html" />
+    <EmbeddedResource Include="Dashboard\corruptionrepair.js" />
+    <EmbeddedResource Include="icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediaBrowser.Server.Core" Version="4.8.11" />
+  </ItemGroup>
+
+</Project>
