@@ -23,20 +23,19 @@ Here’s what the plugin looks like inside the Emby Dashboard:
 ---
 
 ## 📂 Project Structure
+```
 CorruptImageRepair/
-├── Controllers/
-│ └── ImageRepairController.cs
-├── Services/
-│ └── ImageRepairScanService.cs
-├── Dashboard/
-│ ├── corruptionrepair.html
-│ └── corruptionrepair.js
-├── ImageFunctions.cs
-├── WebSocket.cs
-└── Plugin.cs
-
-yaml
-Copy code
+ ├── Controllers/
+ │    └── ImageRepairController.cs
+ ├── Services/
+ │    └── ImageRepairScanService.cs
+ ├── Dashboard/
+ │    ├── corruptionrepair.html
+ │    └── corruptionrepair.js
+ ├── ImageFunctions.cs
+ ├── WebSocket.cs
+ └── Plugin.cs
+```
 
 ---
 
