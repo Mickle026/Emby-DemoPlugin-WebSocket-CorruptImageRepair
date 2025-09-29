@@ -1,7 +1,7 @@
 # Corrupt Image Repair (Demo Teaching Plugin)
 
 This Emby plugin demonstrates how to perform a **non-destructive image corruption scan** using WebSockets for real-time progress updates.  
-It was adapted from the `GameSocketDemo` scaffold and extended to scan library images (Primary, Backdrop, Logo, Thumb, etc.) without deleting or altering them.
+It was adapted from the `WebSocketDemo` scaffold and extended to scan library images (Primary, Backdrop, Logo, Thumb, etc.) without deleting or altering them.
 
 ---
 
