@@ -62,5 +62,10 @@ CorruptImageRepair/
 
 ---
 
+## 🧑‍💻 Developers
+**Author:** Mike Williams  
+
+---
+
 ## 📜 License
 MIT License – free to use, modify, and learn from.
